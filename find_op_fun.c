@@ -1,10 +1,12 @@
 #include "monty.h"
 
 /**
- * find_opfunction - returns the function of the opcode represented by opstring.
+ * find_opfunction - returns the function of the
+ * opcode represented by opstring.
  * @opstring: string representing a potentially available opcode.
  *
- * Return: pointer to the function corresponding to opstring, or NULL if no match.
+ * Return: pointer to the function corresponding to
+ * opstring, or NULL if no match.
  */
 opfunc find_opfunction(char *opstring)
 {
