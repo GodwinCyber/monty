@@ -2,7 +2,8 @@
 
 /**
  * push -  adds a new node at the beginning of a stack_t list.
- * @stack_top: a double pointer representing the address of the head of the list
+ * @stack_top: a double pointer representing
+ * the address of the head of the list
  * @n: integer to initialize the new node with
  */
 void push(stack_t **stack_top, unsigned int n)
