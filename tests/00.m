@@ -1,4 +1,9 @@
-push 1 # Push 1 onto the stack
-push 2 # push 2 onto the stack
-push 3 # push 3 onto the stack
-pall # print all the values on the stack, starting from the top
+push 0
+push 1
+push 2
+  push 3
+                   pall
+push 4
+    push 5
+      push    6
+pall
